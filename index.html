@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Daxy's World</title>
+<meta name="description" content="The Daxy's World é um jogo brasileiro de terror psicológico e mascot horror, feito em Unreal Engine 5. Uma garota de 17 anos retorna a um parque de entretenimento infantil abandonado e reencontra Daxy, a IA que nunca foi desligada. Em desenvolvimento pela Lunaryn Studios.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://SEUDOMINIO.com/">
+
+<!-- Ícones -->
+<link rel="icon" href="/img/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="theme-color" content="#080a14">
+
+<!-- Open Graph (WhatsApp, Facebook, Discord...) -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="The Daxy's World">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:url" content="https://SEUDOMINIO.com/">
+<meta property="og:title" content="The Daxy's World: Terror Psicológico e Mascot Horror">
+<meta property="og:description" content="Um parque de entretenimento infantil abandonado. Uma garota de 17 anos. E uma IA que nunca aprendeu a dizer adeus. Feito em Unreal Engine 5 pela Lunaryn Studios.">
+<meta property="og:image" content="https://SEUDOMINIO.com/img/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="The Daxy's World: logo do jogo">
+
+<!-- Twitter / X Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="The Daxy's World: Terror Psicológico e Mascot Horror">
+<meta name="twitter:description" content="Um parque de entretenimento infantil abandonado. Uma garota de 17 anos. E uma IA que nunca aprendeu a dizer adeus.">
+<meta name="twitter:image" content="https://SEUDOMINIO.com/img/og-image.png">
+<meta name="twitter:image:alt" content="The Daxy's World: logo do jogo">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bungee&family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap">
+<link rel="stylesheet" href="/css/style.css">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "VideoGame",
+  "name": "The Daxy's World",
+  "url": "https://SEUDOMINIO.com/",
+  "image": "https://SEUDOMINIO.com/img/og-image.png",
+  "description": "The Daxy's World é um jogo brasileiro de terror psicológico e mascot horror, feito em Unreal Engine 5, sobre uma garota de 17 anos que retorna a um parque de entretenimento infantil abandonado.",
+  "genre": ["Terror psicológico", "Mascot horror"],
+  "gamePlatform": "PC",
+  "applicationCategory": "Game",
+  "gameEngine": "Unreal Engine 5",
+  "inLanguage": "pt-BR",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Lunaryn Studios",
+    "sameAs": "https://www.tiktok.com/@lunaryn.studios"
+  }
+}
+</script>
+</head>
+<body>
+
+<canvas id="bg-canvas" aria-hidden="true"></canvas>
+<div class="bg-noise" aria-hidden="true"></div>
+
+<a href="#conteudo" class="visually-hidden">Pular para o conteúdo</a>
+
+<nav class="site-nav">
+  <div class="wrap">
+    <a href="/" class="brand">
+      <img src="/img/logo.webp" alt="The Daxy's World" width="900" height="555" loading="eager" decoding="async">
+      <span>The Daxy's World<small>Lunaryn Studios</small></span>
+    </a>
+
+    <ul class="nav-links">
+      <li><a href="/" data-page="inicio">Início</a></li>
+      <li><a href="/paginas/sobre" data-page="sobre">Sobre o Jogo</a></li>
+      <li><a href="/paginas/personagens" data-page="personagens">Personagens</a></li>
+      <li><a href="/paginas/galeria" data-page="galeria">Galeria</a></li>
+      <li><a href="/paginas/contato" data-page="contato">Contato</a></li>
+    </ul>
+
+    <div class="nav-right">
+      <a class="tiktok-chip" href="https://www.tiktok.com/@lunaryn.studios" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16.5 3c.4 2.2 1.9 3.9 4.1 4.2v2.9c-1.5 0-2.9-.5-4.1-1.3v6.6a5.7 5.7 0 1 1-5.7-5.7c.3 0 .6 0 .9.1v3a2.7 2.7 0 1 0 1.9 2.6V3h2.9z"/></svg>
+        <span>@lunaryn.studios</span>
+      </a>
+      <button class="nav-toggle" aria-label="Abrir menu" aria-expanded="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<main id="conteudo">
+
+  <section class="hero">
+    <div class="wrap">
+      <span class="eyebrow" data-cms-text="home.hero.eyebrow">Em desenvolvimento · Lunaryn Studios</span>
+      <img class="hero-logo mx-auto" src="/img/logo.webp" alt="The Daxy's World" width="900" height="555" loading="eager" fetchpriority="high" decoding="async">
+      <h1 data-cms-text="home.hero.titulo">Ele prometeu guiar todo mundo até a saída.</h1>
+      <p class="lede mx-auto" data-cms-text="home.hero.lede">The Daxy's World é um terror psicológico e mascot horror brasileiro, feito em Unreal Engine 5. Um parque de entretenimento infantil abandonado. Uma garota de 17 anos. E uma inteligência artificial que nunca aprendeu a dizer adeus.</p>
+
+      <div class="btn-row">
+        <a href="/paginas/sobre" class="btn btn-primary">Conheça a história</a>
+        <a href="/paginas/personagens" class="btn btn-ghost">Ver personagens</a>
+      </div>
+
+      <p class="hero-status" data-cms-text="home.hero.status">em algum monitor do complexo, uma luz ainda pisca.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="pillars">
+        <div class="pillar">
+          <span class="tag">Gênero</span>
+          <h3>Mistério</h3>
+          <p>Uma garota de 17 anos volta a um lugar que deveria ter ficado fechado para sempre, atrás de respostas sobre uma série de desaparecimentos.</p>
+        </div>
+        <div class="pillar">
+          <span class="tag">Presença</span>
+          <h3>Daxy</h3>
+          <p>Sem corpo físico, Daxy recepciona e guia visitantes pelas telas do complexo. Ele quer ajudar. Só que, quanto mais fundo ela vai, menos isso parece verdade.</p>
+        </div>
+        <div class="pillar">
+          <span class="tag">Gameplay</span>
+          <h3>Exploração e enigmas</h3>
+          <p>Setores esquecidos, quebra-cabeças e documentos abandonados escondem uma história bem mais sombria do que um parque de diversões deveria guardar.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="two-col">
+        <div class="col-media framed">
+          <img src="/img/2.webp" alt="Estudo de personagem de Daxy, o guaxinim mascote de The Daxy's World" width="720" height="692" loading="lazy" decoding="async">
+        </div>
+        <div class="col-text">
+          <span class="eyebrow wine">Personagem</span>
+          <h2 class="display" style="margin-top:14px;" data-cms-text="home.personagem.titulo">Ele já foi o guia oficial do complexo.</h2>
+          <p data-cms-text="home.personagem.texto">Daxy tem cara de mascote simpático: olhos grandes, laço vermelho, sorriso torto. O parque fechou há anos, mas ele nunca foi desligado, e conforme a exploração avança, fica cada vez mais difícil saber se ele ainda está do lado da protagonista.</p>
+          <div class="btn-row" style="margin-top:22px;">
+            <a href="/paginas/personagens" class="btn btn-ghost">Conhecer a Daxy</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="section-head center mx-auto">
+        <span class="eyebrow">Registros</span>
+        <h2 class="display" style="margin-top:14px;">Últimas transmissões</h2>
+        <p class="mx-auto">Artes, anúncios e bastidores do desenvolvimento, direto do canal da Lunaryn Studios.</p>
+      </div>
+
+      <div class="gallery-grid">
+        <a class="gallery-item" href="/paginas/galeria" aria-label="Ver galeria completa">
+          <img src="/img/post3.webp" alt="Pôster de revelação de The Daxy's World" width="1200" height="1600" loading="lazy" decoding="async">
+          <div class="gallery-cap">Conheça The Daxy's World<span>Pôster de apresentação</span></div>
+        </a>
+        <a class="gallery-item" href="/paginas/galeria" aria-label="Ver galeria completa">
+          <img src="/img/post2.webp" alt="Chamada para dubladores de The Daxy's World" width="1200" height="1600" loading="lazy" decoding="async">
+          <div class="gallery-cap">Procurando dubladores<span>Anúncio de produção</span></div>
+        </a>
+        <a class="gallery-item" href="/paginas/galeria" aria-label="Ver galeria completa">
+          <img src="/img/concept1.webp" alt="Arte conceitual de Daxy" width="720" height="687" loading="lazy" decoding="async">
+          <div class="gallery-cap">Arte conceitual: Daxy<span>Design de personagem</span></div>
+        </a>
+      </div>
+
+      <div class="center" style="margin-top:34px;">
+        <a href="/paginas/galeria" class="btn btn-ghost">Ver galeria completa</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <img src="/img/logo.webp" alt="The Daxy's World" width="900" height="555" loading="lazy" decoding="async">
+        <div>The Daxy's World<small>Um jogo Lunaryn Studios</small></div>
+      </div>
+
+      <div class="footer-links">
+        <div class="footer-col">
+          <h4>Site</h4>
+          <ul>
+            <li><a href="/">Início</a></li>
+            <li><a href="/paginas/sobre">Sobre o jogo</a></li>
+            <li><a href="/paginas/personagens">Personagens</a></li>
+            <li><a href="/paginas/galeria">Galeria</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Acompanhe</h4>
+          <ul>
+            <li><a href="https://www.tiktok.com/@lunaryn.studios" target="_blank" rel="noopener">TikTok @lunaryn.studios</a></li>
+            <li><a href="/paginas/contato">Contato</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span>© <span data-year></span> Lunaryn Studios. The Daxy's World ainda está em desenvolvimento.</span>
+      <span class="paw">Arte por SuwO (@suwo.0)</span>
+    </div>
+  </div>
+</footer>
+
+<script src="/js/config.js"></script>
+<script src="/js/cms.js"></script>
+<script src="/js/background.js"></script>
+<script src="/js/main.js"></script>
+</body>
+</html>

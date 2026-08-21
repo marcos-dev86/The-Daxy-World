@@ -1,0 +1,23 @@
+ARQUIVOS ALTERADOS/NOVOS NESTA RODADA — The-Daxy-World
+=========================================================
+
+Alterados:
+  - index.html                          → travessões trocados, URLs limpas, inclui config.js/cms.js
+  - paginas/personagens/index.html      → remove seção "posts" (char-sketches), travessões, URLs limpas
+  - paginas/sobre/index.html            → travessões trocados, URLs limpas
+  - paginas/contato/index.html          → travessão trocado, URLs limpas
+  - paginas/galeria/index.html          → travessões trocados, URLs limpas
+  - css/style.css                       → fontes/cards menores, mais media queries, imagens contidas,
+                                           remove regras não usadas do char-sketches
+  - js/main.js                          → detecção de link ativo agora funciona com URLs limpas
+  - sitemap.xml                         → URLs sem /index.html
+  - site.webmanifest                    → start_url sem /index.html
+  - README.md                           → seção sobre o painel admin (rodada anterior)
+
+Novos:
+  - vercel.json                         → cleanUrls + trailingSlash para as URLs limpas funcionarem
+  - js/config.js                        → URL da API do painel (rodada anterior)
+  - js/cms.js                           → busca conteúdo do painel (rodada anterior)
+
+Este zip já é o repositório completo (não só as alterações) — pode substituir
+o conteúdo do seu repositório The-Daxy-World inteiro por este.
